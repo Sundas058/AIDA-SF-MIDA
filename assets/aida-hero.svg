@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">AIDA-ReID — Learning across domains</title>
+  <desc id="desc">Feedback-regulated intermediate-domain learning, with MS-IDG, PMR and DFC, for domain generalization and source-free adaptation.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0a1025"/><stop offset="1" stop-color="#172c4d"/></linearGradient>
+    <linearGradient id="line"><stop stop-color="#38d9c5"/><stop offset="1" stop-color="#8fa9ff"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="24" fill="url(#grid)"/>
+  <circle cx="1165" cy="30" r="230" fill="#547dff" opacity=".07"/>
+  <circle cx="1130" cy="20" r="180" fill="none" stroke="#819cff" stroke-opacity=".15"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="58" y="44" width="252" height="30" rx="15" fill="#38d9c5" fill-opacity=".12" stroke="#38d9c5" stroke-opacity=".35"/>
+    <circle cx="76" cy="59" r="4" fill="#38d9c5"/>
+    <text x="90" y="64" fill="#94f5e5" font-size="12" letter-spacing="1.3">PERSON RE-IDENTIFICATION</text>
+    <text x="54" y="151" fill="#ffffff" font-size="72" font-weight="700" letter-spacing="-2">AIDA-ReID</text>
+    <text x="59" y="194" fill="#d6e3f9" font-size="25">Learning across domains. Preserving identity.</text>
+    <text x="59" y="230" fill="#9db1cf" font-size="17">Feedback-regulated intermediate-domain learning</text>
+    <rect x="59" y="269" width="245" height="40" rx="10" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".13"/>
+    <text x="79" y="295" fill="#dae8ff" font-size="15">Multi-source generalization</text>
+    <rect x="318" y="269" width="235" height="40" rx="10" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".13"/>
+    <text x="338" y="295" fill="#dae8ff" font-size="15">Source-free adaptation</text>
+    <path d="M753 142 H1090 M1090 142 V292 H753 V142" fill="none" stroke="url(#line)" stroke-width="2" stroke-opacity=".65"/>
+    <path d="m1082 134 9 8-9 8 M761 284l-9 8 9 8" fill="none" stroke="#7cd8e7" stroke-width="2"/>
+    <g fill="#152842" stroke="#4c668c">
+      <rect x="696" y="109" width="152" height="66" rx="12"/>
+      <rect x="942" y="109" width="152" height="66" rx="12"/>
+      <rect x="820" y="260" width="152" height="66" rx="12"/>
+    </g>
+    <text x="772" y="148" fill="#70f0d9" font-size="23" font-weight="600" text-anchor="middle">MS-IDG</text>
+    <text x="1018" y="148" fill="#bbc9ff" font-size="23" font-weight="600" text-anchor="middle">PMR</text>
+    <text x="896" y="300" fill="#95d9ff" font-size="23" font-weight="600" text-anchor="middle">DFC</text>
+    <text x="772" y="200" fill="#9db1cf" font-size="13" text-anchor="middle">Domain construction</text>
+    <text x="1018" y="200" fill="#9db1cf" font-size="13" text-anchor="middle">Identity preservation</text>
+    <text x="896" y="351" fill="#9db1cf" font-size="13" text-anchor="middle">Uncertainty + stability feedback</text>
+    <path d="M59 351H550" stroke="url(#line)" stroke-opacity=".4"/>
+    <text x="59" y="383" fill="#829bbd" font-size="13" letter-spacing=".3">AIDA / SF-MIDA  ·  RESNET-50  ·  PYTORCH</text>
+  </g>
+</svg>
+
